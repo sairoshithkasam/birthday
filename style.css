@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.icon-cog {
+    color: red;
+    padding-top: 3px;
+  }
+.container{
+    position: relative;
+    width: 100vw;
+    margin:auto;
+}
+
+.video-wrap video{
+    position: absolute;
+    top:0;
+    left:0;
+    height:130vh;
+    z-index: 0;
+    
+}
+.video-overlay {
+    top: 0;
+    left: 0;
+    height: 130vh;
+    width: 100vw;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    opacity: 0.75;
+    z-index: 1;
+}
+.content{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index:20;
+}
+
+.content h1{
+    text-align:center;
+    color:#808080;
+    width:20rem;
+    margin:auto;
+    font-size:6rem;
+    
+}
+.content p{
+    font-size:3.5rem;
+    padding:2rem; 
+    width: 100%;
+    text-align: center;
+}
+.content h2{
+    
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+img:nth-child(3){
+  
+    margin:4rem;
+    height:40vh;
+    width:20vw;
+}
+img:nth-child(1){
+    margin:4rem;
+    height:60vh;
+    width:20vw;
+}
+
+img:nth-child(2){
+    margin:4rem;
+    height:50vh;
+    width:20vw;
+}
+.grid-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+}
+a{
+    color:#808080;
+    text-decoration: none;
+}
+.content3 .btn{
+    background: #474747;
+    padding:1rem;
+    position: absolute;
+    top:210%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    
+}
